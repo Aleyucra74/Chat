@@ -1,5 +1,6 @@
 <?php 
 	// Incluindo dependências
+	//ta funfando 
 	include('./req/DB.php');
 	include('./req/Espectador.php');
 	include('./req/Usuario.php');

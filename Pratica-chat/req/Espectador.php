@@ -37,6 +37,7 @@ class Espectador {
 		if($result){
 
 			if(password_verify($senha,$result['senha'])){
+				$this->id = $result['id'];
 				$this->email = $email;
 				$this->logado = true;
 				return true;
